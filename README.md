@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # **Behavioral Cloning** 
-=======
-# Behavioral Cloning Project
->>>>>>> 2d6e97945840d706b2a99cd2a003f8b66f72e9e5
 
 ---
 
@@ -102,14 +98,6 @@ I used the simulation data provided by Udacity which is recorded on track 1 in t
 
 To augment the data set, I flipped images and angles thinking that this would help generalising by tricking the model into thinking i drove the car the other direction in the simulator.
 
-<<<<<<< HEAD
 I finally randomly shuffled the data set and put 20% of the data into a validation set. 
-=======
-### Tips
-- Please keep in mind that training images are loaded in BGR colorspace using cv2 while drive.py load images in RGB to predict the steering angles.
-
-## How to write a README
-A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
->>>>>>> 2d6e97945840d706b2a99cd2a003f8b66f72e9e5
 
 I used this training data for training the model. The validation set helped determine if the model was over or under fitting. One epoch was sufficient as evidenced by running the simulator on the trained model. I used an adam optimizer so that manually training the learning rate wasn't necessary.
